@@ -14,7 +14,12 @@ https://www.youtube.com/watch?v=KKeZPA-Gvs4
 
 # Twelve Labs Setup 
 ## Create an Account 
+https://playground.twelvelabs.io/
+10 hours free video uploaded 
+50 API calls/day <<<< be judicious!
 
 ## Create an Index 
+https://playground.twelvelabs.io/indexes
 
-## Upload videos
+## Upload video(s)
+
