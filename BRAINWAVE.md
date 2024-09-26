@@ -2,7 +2,7 @@
 The world's coolest agentic video framework, based on TwelveLabs video models.
 
 ## Links
-**Video, Audio, Imagery & On-Screen Text Understanding**
+**Video, Audio, Imagery & On-Screen Text Understanding**  
 [Search](https://docs.twelvelabs.io/reference/any-to-video-search) 
 Text, context, dialogue, etc. within video
 
@@ -17,7 +17,7 @@ Organize your content
 **Embeddings**
 [Video](https://docs.twelvelabs.io/reference/video-embeddings) & [Text](https://docs.twelvelabs.io/reference/text-embeddings) 
 
-**Note:** the embeddings API is not generally available. The other endpoints are powerful enough that most people won’t need embeddings, but Twelve Labs is providing accelerated access for hackathon participants. Fill out ****[this form](https://twelvelabs.typeform.com/to/q0VyBAd4?typeform-source=tl-docs) to request access
+**Note:** the embeddings API is not generally available. The other endpoints are powerful enough that most people won’t need embeddings, but Twelve Labs is providing accelerated access for hackathon participants. Fill out [this form](https://twelvelabs.typeform.com/to/q0VyBAd4?typeform-source=tl-docs) to request access
 
 
 **API Docs**
