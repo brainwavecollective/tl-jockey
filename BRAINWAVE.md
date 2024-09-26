@@ -3,16 +3,16 @@ The world's coolest agentic video framework, based on TwelveLabs video models.
 
 ## Links
 **Video, Audio, Imagery & On-Screen Text Understanding**  
-[Search](https://docs.twelvelabs.io/reference/any-to-video-search) 
-Text, context, dialogue, etc. within video
-
-[Generate](https://docs.twelvelabs.io/reference/generate-text-from-video-2)
-Titles, topics, hashtags (/gist)
-Summaries, chapters, and highlights (/summarize)
-Create open ended text about your content (/generate)
-
-[Classify](https://docs.twelvelabs.io/reference/classify)
-Organize your content
+Search  
+Text, context, dialogue, etc. within video  
+  
+Generate  
+Titles, topics, hashtags (/gist)  
+Summaries, chapters, and highlights (/summarize)  
+Create open ended text about your content (/generate)  
+  
+Classify  
+Organize your content  
 
 **Embeddings**
 [Video](https://docs.twelvelabs.io/reference/video-embeddings) & [Text](https://docs.twelvelabs.io/reference/text-embeddings) 
@@ -66,14 +66,21 @@ https://playground.twelvelabs.io/
 
 # Accessing API 
 `export TL_API_KEY=<your key from: https://playground.twelvelabs.io/dashboard/api-key>`
+`export VIDEO_INDEX = <your index>`  
 
+[Search](https://docs.twelvelabs.io/reference/make-search-request)  
+```
+curl -X POST https://api.twelvelabs.io/v1.2/search \
+     -H "Accept: application/json" \
+     -H "X-Api-Key: ${TL_API_KEY}" \
+     -H "Content-Type: application/json" \
+     -d "{\"search_options\":[\"visual\",\"conversation\",\"text_in_video\"],\"adjust_confidence_level\":0.5,\"group_by\":\"clip\",\"threshold\":\"low\",\"sort_option\":\"score\",\"operator\":\"or\",\"conversation_option\":\"semantic\",\"page_limit\":10,\"query\":\"waterfall in fall\",\"index_id\":\"${VIDEO_INDEX}\"}"
+```
 
-## Search 
-66f5e10eb0f22aa46e7b7f52
-
-
-
-## Classify 
-
-## Generate 
+[Classify](https://docs.twelvelabs.io/reference/classify-bulk)  
+ 
+[Generate](https://docs.twelvelabs.io/reference/generate-text-from-video-1)  
+[Generate: gist](https://docs.twelvelabs.io/reference/generate-gist)  
+[Generate: Summary](https://docs.twelvelabs.io/reference/summarize)  
+[Generate: Text](https://docs.twelvelabs.io/reference/generate-text-representation)  
 
